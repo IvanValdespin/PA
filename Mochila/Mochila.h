@@ -14,5 +14,4 @@
 void maximizaMochila(float a[], int n, float max, float b[], int *k,
     float *temporal);
 
-
 #endif
