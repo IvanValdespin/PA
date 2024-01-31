@@ -3,6 +3,9 @@
 //Autor: Valdespin Garcia Ivan Giovanni
 //	Lectura de un archivo CSV
 
+/*Generación de una API para la generación de listas ligadas.
+El ejercicio consiste en agregar usuarios a una lista ligada utilizando memoria dinámica para utilizar de manera eficiente la memoria disponible*/
+
 #include <stdio.h>
 #include <string.h>
 #include "ListaLigada.h"
