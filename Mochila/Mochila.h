@@ -8,7 +8,7 @@
 #define TOTAL_WEIGHT "Peso máximo introducido:"
 
 #include <stdio.h>
-
+#include <stdlib.h>
 
 
 void maximizaMochila(float a[], int n, float max, float b[], int *k,
