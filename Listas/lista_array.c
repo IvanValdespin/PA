@@ -77,3 +77,17 @@ void imprimir_lista(lista *list){
     }
 
 }
+
+void readcsv(char *buffer, int i,unsigned int *clave, char *nombre, char *direccion){
+	
+	char delimitador[] = ",";
+    	if(i>0){
+    		char *tok = strtok(buffer,delimitador);
+    		sscanf(tok,"%d",clave);
+    		tok = strtok(NULL,delimitador);
+    		sscanf(tok,"%[^\n]",nombre);
+    		tok = strtok(NULL, delimitador);
+    		sscanf(tok,"%[^\n]",direccion);
+
+    	}
+}
