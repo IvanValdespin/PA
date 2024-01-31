@@ -42,6 +42,6 @@ void imprimir_lista(lista *list);
 //API extendido
 
 void inicializa(lista *list);
-
+void readcsv(char *buffer, int i,unsigned int *clave, char *nombre, char *direccion);
 
 #endif /*lista_array_h*/
